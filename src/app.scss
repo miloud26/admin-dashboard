@@ -1,0 +1,47 @@
+@import url("https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;700&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+  letter-spacing: 1.2px !important;
+  font-family: "DM Sans", sans-serif !important;
+}
+html,
+body,
+#root,
+.content {
+  position: relative;
+  width: 100% !important;
+  font-family: "DM Sans", sans-serif !important;
+  font-size: 100%;
+  @media screen and (max-width: 600px) {
+    .hide-scrollbar {
+      overflow-x: visible;
+    }
+  }
+}
+
+img {
+  width: 100%;
+}
+a {
+  text-decoration: none;
+}
+
+.hide-scrollbar::-webkit-scrollbar {
+  display: none;
+}
+.Mui-focusVisible {
+  visibility: hidden;
+}
+.barchart {
+  height: 100% !important;
+}
+body::-webkit-scrollbar {
+  display: none;
+}
+.miloud {
+  cursor: pointer;
+}
